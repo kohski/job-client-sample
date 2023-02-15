@@ -1,0 +1,27 @@
+[[package]]
+name = "awscrt"
+version = "0.16.0"
+description = "A common runtime for AWS Python projects"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "awsiotsdk"
+version = "1.12.0"
+description = "AWS IoT SDK based on the AWS Common Runtime"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+awscrt = "0.16.0"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "8caf0ce699b71b305f9aee4ca943bbf279c9e1f74070a82cdd4e89989959012b"
+
+[metadata.files]
+awscrt = []
+awsiotsdk = []
